@@ -24,7 +24,7 @@
 <hr>
 
  
-<h4>Caso queira ver cada arquivo do codigos:</h4>
+<h2>Caso queira ver cada arquivo do codigos:</h2>
 <ul>
     <li>
         <a href="https://github.com/niinoolopes/code__JS--Scroll-suave/blob/gh-pages/app/scripts/app.js" target="_blank"> Main.js </a>
