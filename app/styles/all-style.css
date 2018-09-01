@@ -1,0 +1,204 @@
+/* imports */
+/* @import 'caminho/arquivo'; */
+/* - RESET
+  update - > 07/2018
+  Anderson Lopes ->  niinoolopes0@gmail.com 
+  @niinoolopes0
+*/
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: sans-serif; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+/* TITULO - PARAGRAFOS*/
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0; }
+
+ul, ol {
+  margin: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+a:hover {
+  text-decoration: underline;
+  color: #000; }
+
+img {
+  max-width: 100%; }
+
+/* RESET - FIM */
+/* - GRID
+  update - > 09/2018
+  Anderson Lopes ->  niinoolopes0@gmail.com 
+  @niinoolopes0
+*/
+* {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 576px; }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px; }
+  [class*="col"] {
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px; }
+  .col-auto {
+    flex: auto;
+    width: unset; }
+  .col-1 {
+    flex-grow: 1;
+    max-width: 8.33333%; }
+  .col-2 {
+    flex-grow: 2;
+    max-width: 16.66667%; }
+  .col-3 {
+    flex-grow: 3;
+    max-width: 25%; }
+  .col-4 {
+    flex-grow: 4;
+    max-width: 33.33333%; }
+  .col-5 {
+    flex-grow: 5;
+    max-width: 41.66667%; }
+  .col-6 {
+    flex-grow: 6;
+    max-width: 50%; }
+  .col-7 {
+    flex-grow: 7;
+    max-width: 58.33333%; }
+  .col-8 {
+    flex-grow: 8;
+    max-width: 66.66667%; }
+  .col-9 {
+    flex-grow: 9;
+    max-width: 75%; }
+  .col-10 {
+    flex-grow: 10;
+    max-width: 83.33333%; }
+  .col-11 {
+    flex-grow: 11;
+    max-width: 91.66667%; }
+  .col-12 {
+    flex-grow: 12;
+    max-width: 100%; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px; } }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 992px; } }
+
+/* styles pages */
+header {
+  position: fixed;
+  width: 100%; }
+
+header ul {
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: stretch; }
+
+header li {
+  margin: 4px;
+  flex: 1; }
+  @media (min-width: 768px) {
+    header li {
+      margin: 0 8px;
+      flex: none; } }
+
+header a {
+  display: block;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.33);
+  border-radius: 3px;
+  transition: 0.33s;
+  text-align: center; }
+
+header a:hover {
+  color: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: none; }
+
+footer {
+  padding-top: 8px; }
+
+footer .row {
+  padding: 16px;
+  justify-content: center;
+  display: flex; }
+
+footer i {
+  font-size: 32px;
+  padding: 10px; }
+
+footer h2 {
+  background: #0f1419;
+  text-align: center;
+  padding: 8px 0;
+  color: #FFF;
+  font-style: italic; }
+
+header, footer {
+  background: #5f7d9b; }
+
+.intro {
+  padding-top: 50px;
+  height: 85vh;
+  background: #263340;
+  color: #fff;
+  background: #0f1419; }
+
+.intro h2 {
+  font-size: 1.5em;
+  margin: 40vh 0 24px; }
+  @media (min-width: 576px) {
+    .intro h2 {
+      font-size: 2em; } }
+  @media (min-width: 768px) {
+    .intro h2 {
+      font-size: 2.5em;
+      margin: 45vh 0 24px; } }
+
+.intro cite {
+  color: rgba(255, 255, 255, 0.35); }
+
+.intro cite i {
+  color: rgba(255, 255, 255, 0.15); }
+
+section {
+  padding: 16px 0; }
+
+.areas {
+  max-width: 700px;
+  padding-top: 15px;
+  margin-top: 20px; }
+
+.areas p {
+  margin-top: 8px; }

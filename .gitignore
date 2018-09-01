@@ -1,0 +1,9 @@
+node_modules/
+package
+.vscode/
+app/assets/images
+app/scripts/_include
+app/scripts/src
+app/styles/_include
+app/styles/src 
+package.json
